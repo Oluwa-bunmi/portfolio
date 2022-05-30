@@ -11,12 +11,13 @@ body {
       li {
         list-style: none;
         a {
-          color: #000;
+           color: rgb(88, 83, 83);
           font-size: 19px;
           text-decoration: none;
         }
-        a:hover{
-            color: rgb(88, 83, 83);
+        a:active, :hover{
+            color: #000;
+           
         }
       }
     }
@@ -28,6 +29,13 @@ body {
       font-size: 17px;
   }
   .contactSection{
+      hr{
+        color: #f44336;
+      
+      }
+      .row{
+margin-top: 50px;
+     
 .col-md-6:first-child{
     div{
         display: flex;
@@ -40,9 +48,34 @@ body {
             text-decoration: none;
             i{
                 margin-right: 8px;
+                 color: #f44336;
+
             }
         }
     }
 }
+.col-md-6:nth-child(2){
+     form{
+      input, textarea {
+        width: 100%;
+        padding: 15px;
+        outline: none;
+        margin-bottom: 17px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      .hero{
+      border: 1px solid #f44336;
+      background: transparent;
+      color: #f44336;
+      
+    }
+    .hero:hover{
+      color: white;
+      background-color: #f44336;
+    }
+    }
+}
   }
 }
+ }

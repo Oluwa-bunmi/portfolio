@@ -16,13 +16,13 @@ body nav ul li {
 }
 
 body nav ul li a {
-  color: #000;
+  color: #585353;
   font-size: 19px;
   text-decoration: none;
 }
 
-body nav ul li a:hover {
-  color: #585353;
+body nav ul li a:active, body nav ul li :hover {
+  color: #000;
 }
 
 body h3 {
@@ -33,7 +33,15 @@ body p {
   font-size: 17px;
 }
 
-body .contactSection .col-md-6:first-child div {
+body .contactSection hr {
+  color: #f44336;
+}
+
+body .contactSection .row {
+  margin-top: 50px;
+}
+
+body .contactSection .row .col-md-6:first-child div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,12 +53,34 @@ body .contactSection .col-md-6:first-child div {
   margin-top: 30px;
 }
 
-body .contactSection .col-md-6:first-child div a {
+body .contactSection .row .col-md-6:first-child div a {
   color: #000;
   text-decoration: none;
 }
 
-body .contactSection .col-md-6:first-child div a i {
+body .contactSection .row .col-md-6:first-child div a i {
   margin-right: 8px;
+  color: #f44336;
+}
+
+body .contactSection .row .col-md-6:nth-child(2) form input, body .contactSection .row .col-md-6:nth-child(2) form textarea {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  margin-bottom: 17px;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .contactSection .row .col-md-6:nth-child(2) form .hero {
+  border: 1px solid #f44336;
+  background: transparent;
+  color: #f44336;
+}
+
+body .contactSection .row .col-md-6:nth-child(2) form .hero:hover {
+  color: white;
+  background-color: #f44336;
 }
 /*# sourceMappingURL=style.css.map */
