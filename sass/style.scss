@@ -1,6 +1,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+ 
   nav {
     ul {
       display: flex;
@@ -30,6 +31,17 @@ body {
 .col-md-6:first-child{
     div{
         display: flex;
+        flex-direction: column;
+        line-height: 40px;
+        margin-top: 30px;
+        a{
+           
+            color: #000;
+            text-decoration: none;
+            i{
+                margin-right: 8px;
+            }
+        }
     }
 }
   }
