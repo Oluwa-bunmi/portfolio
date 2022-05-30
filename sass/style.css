@@ -3,15 +3,19 @@
   list-style: none;
 }
 
-nav ul {
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 2rem;
 }
 
-nav a {
-  color: #000 !important;
+body nav a {
+  color: #000;
   font-size: 19px;
 }
 /*# sourceMappingURL=style.css.map */
