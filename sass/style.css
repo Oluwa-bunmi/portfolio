@@ -34,7 +34,7 @@ body p {
 }
 
 body .contactSection hr {
-  color: #f44336;
+  color: green;
 }
 
 body .contactSection .row {
@@ -60,7 +60,7 @@ body .contactSection .row .col-md-6:first-child div a {
 
 body .contactSection .row .col-md-6:first-child div a i {
   margin-right: 8px;
-  color: #f44336;
+  font-size: 20px;
 }
 
 body .contactSection .row .col-md-6:nth-child(2) form input, body .contactSection .row .col-md-6:nth-child(2) form textarea {
@@ -74,13 +74,14 @@ body .contactSection .row .col-md-6:nth-child(2) form input, body .contactSectio
 }
 
 body .contactSection .row .col-md-6:nth-child(2) form .hero {
-  border: 1px solid #f44336;
+  border: 1px solid green;
   background: transparent;
-  color: #f44336;
+  color: green;
+  margin-bottom: 30px;
 }
 
 body .contactSection .row .col-md-6:nth-child(2) form .hero:hover {
   color: white;
-  background-color: #f44336;
+  background-color: green;
 }
 /*# sourceMappingURL=style.css.map */
