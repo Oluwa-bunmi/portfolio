@@ -1,16 +1,12 @@
-// *{
-// padding: 0;
-// margin: 0;
-// box-sizing: border-box;
-//     text-decoration: none;
-//
-// }
+
 body {
   font-family: "Poppins", sans-serif;
   nav {
     ul {
       display: flex;
       gap: 2rem;
+      padding-left: 0;
+      padding-top: 15px;
       li {
         list-style: none;
         a {
@@ -23,5 +19,18 @@ body {
         }
       }
     }
+  }
+  h3{
+      font-size: 25px;
+  }
+  p{
+      font-size: 17px;
+  }
+  .contactSection{
+.col-md-6:first-child{
+    div{
+        display: flex;
+    }
+}
   }
 }

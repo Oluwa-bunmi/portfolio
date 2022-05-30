@@ -7,6 +7,8 @@ body nav ul {
   display: -ms-flexbox;
   display: flex;
   gap: 2rem;
+  padding-left: 0;
+  padding-top: 15px;
 }
 
 body nav ul li {
@@ -21,5 +23,19 @@ body nav ul li a {
 
 body nav ul li a:hover {
   color: #585353;
+}
+
+body h3 {
+  font-size: 25px;
+}
+
+body p {
+  font-size: 17px;
+}
+
+body .contactSection .col-md-6:first-child div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
