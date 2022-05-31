@@ -4,7 +4,7 @@ body {
 
 body h2 {
   font-weight: 200;
-  margin-top: 50px;
+  margin-top: 50px !important;
 }
 
 body hr {
@@ -106,5 +106,11 @@ body .aboutSection .skills {
 
 body .aboutSection .skills .col-md-1 {
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  body .projects .row div {
+    margin-bottom: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
