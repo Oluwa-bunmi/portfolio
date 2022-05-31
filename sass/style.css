@@ -21,7 +21,8 @@ body nav ul li a {
   text-decoration: none;
 }
 
-body nav ul li a:active, body nav ul li :hover {
+body nav ul li a:active,
+body nav ul li :hover {
   color: #000;
   border-bottom: 2px solid green;
 }
@@ -77,7 +78,8 @@ body .contactSection .col-md-6:nth-child(2) {
   margin-top: 30px;
 }
 
-body .contactSection .col-md-6:nth-child(2) form input, body .contactSection .col-md-6:nth-child(2) form textarea {
+body .contactSection .col-md-6:nth-child(2) form input,
+body .contactSection .col-md-6:nth-child(2) form textarea {
   width: 100%;
   padding: 15px;
   outline: none;
@@ -95,5 +97,19 @@ body .contactSection .col-md-6:nth-child(2) form .hero {
 body .contactSection .col-md-6:nth-child(2) form .hero:hover {
   color: white;
   background-color: green;
+}
+
+body .aboutSection h2 {
+  font-weight: 200;
+  margin-top: 50px;
+}
+
+body .aboutSection .skills {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+body .aboutSection .skills .col-md-1 {
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */

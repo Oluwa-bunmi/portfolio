@@ -1,7 +1,6 @@
-
 body {
   font-family: "Poppins", sans-serif;
- 
+
   nav {
     ul {
       display: flex;
@@ -11,85 +10,91 @@ body {
       li {
         list-style: none;
         a {
-           color: rgb(88, 83, 83);
+          color: rgb(88, 83, 83);
           font-size: 19px;
           text-decoration: none;
         }
-        a:active, :hover{
-            color: #000;
-            border-bottom: 2px solid green;
-           
+        a:active,
+        :hover {
+          color: #000;
+          border-bottom: 2px solid green;
         }
       }
     }
   }
-  h3{
-      font-size: 25px;
+  h3 {
+    font-size: 25px;
   }
-  p{
-      font-size: 17px;
+  p {
+    font-size: 17px;
   }
-  .contactSection{
-      h2{
-          font-weight: 200;
-          margin-top: 50px;
-      }
-      hr{
-        color: green;
-      
-      }
-    
+  .contactSection {
+    h2 {
+      font-weight: 200;
+      margin-top: 50px;
+    }
+    hr {
+      color: green;
+    }
 
-     
-.col-md-6:first-child{
-    margin-top: 50px;
-    div{
+    .col-md-6:first-child {
+      margin-top: 50px;
+      div {
         display: flex;
         flex-direction: column;
         line-height: 55px;
         margin-top: 30px;
-        a{
-           
-            color: #000;
-            text-decoration: none;
-            i{
-                margin-right: 8px;
-                font-size: 20px;
-
-            }
+        a {
+          color: #000;
+          text-decoration: none;
+          i {
+            margin-right: 8px;
+            font-size: 20px;
+          }
         }
-    }
-    h3{
-        font-weight: 200;
-    }
-}
-.col-md-6:nth-child(2){
-    margin-top: 30px;
-     form{
-      input, textarea {
-        width: 100%;
-        padding: 15px;
-        outline: none;
-        margin-bottom: 17px;
-        border: 1px solid #ccc;
-     
       }
-      
-      .hero{
-      border: 1px solid green;
-      background: transparent;
-      color: green;
-       margin-bottom: 30px;
-      
+      h3 {
+        font-weight: 200;
+      }
     }
-    .hero:hover{
-      color: white;
-      background-color: green;
-     
-    }
-    }
-}
+    .col-md-6:nth-child(2) {
+      margin-top: 30px;
+      form {
+        input,
+        textarea {
+          width: 100%;
+          padding: 15px;
+          outline: none;
+          margin-bottom: 17px;
+          border: 1px solid #ccc;
+        }
 
-  
+        .hero {
+          border: 1px solid green;
+          background: transparent;
+          color: green;
+          margin-bottom: 30px;
+        }
+        .hero:hover {
+          color: white;
+          background-color: green;
+        }
+      }
+    }
+  }
+  .aboutSection {
+       h2 {
+      font-weight: 200;
+      margin-top: 50px;
+    }
+    .skills {
+      margin: {
+        top: 50px;
+        bottom: 50px;
+      }
+      .col-md-1{
+          margin-bottom: 30px;
+      }
+    }
+  }
 }
- }
