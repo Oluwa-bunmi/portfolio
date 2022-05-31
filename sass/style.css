@@ -2,6 +2,15 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+body h2 {
+  font-weight: 200;
+  margin-top: 50px;
+}
+
+body hr {
+  color: green;
+}
+
 body nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,15 +42,6 @@ body h3 {
 
 body p {
   font-size: 17px;
-}
-
-body .contactSection h2 {
-  font-weight: 200;
-  margin-top: 50px;
-}
-
-body .contactSection hr {
-  color: green;
 }
 
 body .contactSection .col-md-6:first-child {
@@ -97,11 +97,6 @@ body .contactSection .col-md-6:nth-child(2) form .hero {
 body .contactSection .col-md-6:nth-child(2) form .hero:hover {
   color: white;
   background-color: green;
-}
-
-body .aboutSection h2 {
-  font-weight: 200;
-  margin-top: 50px;
 }
 
 body .aboutSection .skills {

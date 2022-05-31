@@ -1,5 +1,12 @@
 body {
   font-family: "Poppins", sans-serif;
+   h2 {
+      font-weight: 200;
+      margin-top: 50px;
+    }
+     hr {
+      color: green;
+    }
 
   nav {
     ul {
@@ -29,13 +36,8 @@ body {
     font-size: 17px;
   }
   .contactSection {
-    h2 {
-      font-weight: 200;
-      margin-top: 50px;
-    }
-    hr {
-      color: green;
-    }
+   
+   
 
     .col-md-6:first-child {
       margin-top: 50px;
@@ -83,10 +85,7 @@ body {
     }
   }
   .aboutSection {
-       h2 {
-      font-weight: 200;
-      margin-top: 50px;
-    }
+     
     .skills {
       margin: {
         top: 50px;
