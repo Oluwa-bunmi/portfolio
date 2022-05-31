@@ -17,6 +17,7 @@ body {
         }
         a:active, :hover{
             color: #000;
+            border-bottom: 2px solid green;
            
         }
       }
@@ -29,18 +30,23 @@ body {
       font-size: 17px;
   }
   .contactSection{
+      h2{
+          font-weight: 200;
+          margin-top: 50px;
+      }
       hr{
         color: green;
       
       }
-      .row{
-margin-top: 50px;
+    
+
      
 .col-md-6:first-child{
+    margin-top: 50px;
     div{
         display: flex;
         flex-direction: column;
-        line-height: 40px;
+        line-height: 55px;
         margin-top: 30px;
         a{
            
@@ -53,8 +59,12 @@ margin-top: 50px;
             }
         }
     }
+    h3{
+        font-weight: 200;
+    }
 }
 .col-md-6:nth-child(2){
+    margin-top: 30px;
      form{
       input, textarea {
         width: 100%;
@@ -62,8 +72,9 @@ margin-top: 50px;
         outline: none;
         margin-bottom: 17px;
         border: 1px solid #ccc;
-        box-sizing: border-box;
+     
       }
+      
       .hero{
       border: 1px solid green;
       background: transparent;
@@ -78,7 +89,7 @@ margin-top: 50px;
     }
     }
 }
-  }
+
   
 }
  }

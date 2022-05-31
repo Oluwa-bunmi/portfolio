@@ -23,6 +23,7 @@ body nav ul li a {
 
 body nav ul li a:active, body nav ul li :hover {
   color: #000;
+  border-bottom: 2px solid green;
 }
 
 body h3 {
@@ -33,15 +34,20 @@ body p {
   font-size: 17px;
 }
 
+body .contactSection h2 {
+  font-weight: 200;
+  margin-top: 50px;
+}
+
 body .contactSection hr {
   color: green;
 }
 
-body .contactSection .row {
+body .contactSection .col-md-6:first-child {
   margin-top: 50px;
 }
 
-body .contactSection .row .col-md-6:first-child div {
+body .contactSection .col-md-6:first-child div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,38 +55,44 @@ body .contactSection .row .col-md-6:first-child div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  line-height: 40px;
+  line-height: 55px;
   margin-top: 30px;
 }
 
-body .contactSection .row .col-md-6:first-child div a {
+body .contactSection .col-md-6:first-child div a {
   color: #000;
   text-decoration: none;
 }
 
-body .contactSection .row .col-md-6:first-child div a i {
+body .contactSection .col-md-6:first-child div a i {
   margin-right: 8px;
   font-size: 20px;
 }
 
-body .contactSection .row .col-md-6:nth-child(2) form input, body .contactSection .row .col-md-6:nth-child(2) form textarea {
+body .contactSection .col-md-6:first-child h3 {
+  font-weight: 200;
+}
+
+body .contactSection .col-md-6:nth-child(2) {
+  margin-top: 30px;
+}
+
+body .contactSection .col-md-6:nth-child(2) form input, body .contactSection .col-md-6:nth-child(2) form textarea {
   width: 100%;
   padding: 15px;
   outline: none;
   margin-bottom: 17px;
   border: 1px solid #ccc;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
-body .contactSection .row .col-md-6:nth-child(2) form .hero {
+body .contactSection .col-md-6:nth-child(2) form .hero {
   border: 1px solid green;
   background: transparent;
   color: green;
   margin-bottom: 30px;
 }
 
-body .contactSection .row .col-md-6:nth-child(2) form .hero:hover {
+body .contactSection .col-md-6:nth-child(2) form .hero:hover {
   color: white;
   background-color: green;
 }
